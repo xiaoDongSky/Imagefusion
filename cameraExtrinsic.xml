@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<rotationMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    9.99889076e-001 9.56999883e-003 1.14107793e-002 1.11565050e-002
+    2.62151677e-002 -9.99594092e-001 -9.86524951e-003 9.99610543e-001
+    2.61054933e-002</data></rotationMatrix>
+<offsetMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>1</cols>
+  <dt>f</dt>
+  <data>
+    -1.28187292e+003 1.56441370e+003 7.51602246e+003</data></offsetMatrix>
+<cameraLocation>
+  1.3384249267578125e+003 -7.5418383789062500e+003
+  1.3821962890625000e+003</cameraLocation>
+<offsetValue>
+  -1.2818729248046875e+003 1.5644136962890625e+003
+  7.5160224609375000e+003</offsetValue>
+<camExtriMatrix type_id="opencv-matrix">
+  <rows>4</rows>
+  <cols>4</cols>
+  <dt>d</dt>
+  <data>
+    9.9988907575607300e-001 9.5699988305568695e-003
+    1.1410779319703579e-002 -1.2818729248046875e+003
+    1.1156504973769188e-002 2.6215167716145515e-002
+    -9.9959409236907959e-001 1.5644136962890625e+003
+    -9.8652495071291924e-003 9.9961054325103760e-001
+    2.6105493307113647e-002 7.5160224609375000e+003 0. 0. 0. 1.</data></camExtriMatrix>
+<deltaXY>
+  1280. -5360.</deltaXY>
+<headLocation>
+  1280. -5360.</headLocation>
+</opencv_storage>

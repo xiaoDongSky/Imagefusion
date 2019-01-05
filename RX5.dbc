@@ -1,0 +1,76 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ NewSignal_0011 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 201 Engine_Speed: 8 Vector__XXX
+ SG_ Engine_Speed : 7|16@0+ (0.25,0) [0|16383.8] "" Vector__XXX
+
+BO_ 241 Braking_Signal: 8 Vector__XXX
+ SG_ Braking_Signal : 15|8@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 977 Oil_Consumption: 8 Vector__XXX
+ SG_ Oil_Consumption : 23|16@0+ (16,0) [0|65520] "" Vector__XXX
+
+BO_ 404 Gears: 8 Vector__XXX
+ SG_ Gears : 31|8@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 1130 Indication: 8 Vector__XXX
+ SG_ Indication : 39|8@0+ (1,0) [0|100] "" Vector__XXX
+
+BO_ 389 Accelerated_Speed: 8 Vector__XXX
+ SG_ Accelerated_Speed : 15|8@0+ (0.003,0) [0|15.33] "" Vector__XXX
+
+BO_ 532 Brake: 8 Vector__XXX
+ SG_ Brake : 15|8@0+ (75,0) [0|19125] "kPa" Vector__XXX
+
+BO_ 485 Steer_Angle: 8 Vector__XXX
+ SG_ Steer_Angle : 15|16@0+ (0.0625,-2048) [-2048|2047.88] "" Vector__XXX
+
+BO_ 851 Vehicle_Speed: 8 Vector__XXX
+ SG_ Vehicle_Speed : 7|16@0+ (0.015625,0) [0|511.984] "" Vector__XXX
+
+BO_ 1344 Mileage: 8 Vector__XXX
+ SG_ Mileage : 7|24@0+ (1,0) [0|16777200] "" Vector__XXX
+
+
+
+VAL_ 404 Gears 1 "P" 2 "R" 3 "N" 4 "D" ;
+VAL_ 1130 Indication 32 "left" 64 "right" 96 "hazard" ;
+
